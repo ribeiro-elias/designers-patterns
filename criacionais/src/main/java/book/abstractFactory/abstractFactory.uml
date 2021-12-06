@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>design.criacao.abstractFactory</OriginalElement>
+  <nodes>
+    <node x="665.75" y="555.9565217391305">design.criacao.abstractFactory.SofaRetro</node>
+    <node x="204.5" y="147.52173913043478">design.criacao.abstractFactory.AbstractFactory</node>
+    <node x="290.0" y="297.52173913043475">design.criacao.abstractFactory.MobiliaModernaFactory</node>
+    <node x="-54.25" y="555.9565217391305">design.criacao.abstractFactory.MesaRetro</node>
+    <node x="584.5" y="449.95652173913044">design.criacao.abstractFactory.Sofa</node>
+    <node x="294.75" y="555.9565217391305">design.criacao.abstractFactory.CadeiraModerna</node>
+    <node x="116.75" y="555.9565217391305">design.criacao.abstractFactory.CadeiraRetro</node>
+    <node x="-221.25" y="555.9565217391305">design.criacao.abstractFactory.MesaModerna</node>
+    <node x="502.75" y="555.9565217391305">design.criacao.abstractFactory.SofaModerno</node>
+    <node x="207.0" y="449.95652173913044">design.criacao.abstractFactory.Cadeira</node>
+    <node x="83.0" y="297.52173913043475">design.criacao.abstractFactory.MobiliaRetroFactory</node>
+    <node x="-134.0" y="449.95652173913044">design.criacao.abstractFactory.Mesa</node>
+    <node x="184.0" y="-19.82608695652175">design.criacao.abstractFactory.Application</node>
+    <node x="192.0" y="-133.91304347826087">design.criacao.abstractFactory.AbstractFactoryMain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="design.criacao.abstractFactory.MobiliaRetroFactory" target="design.criacao.abstractFactory.AbstractFactory" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="176.5" y="272.52173913043475" />
+      <point x="286.0" y="272.52173913043475" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.SofaModerno" target="design.criacao.abstractFactory.Sofa" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="574.25" y="530.9565217391305" />
+      <point x="655.5" y="530.9565217391305" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.SofaRetro" target="design.criacao.abstractFactory.Sofa" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="736.75" y="530.9565217391305" />
+      <point x="655.5" y="530.9565217391305" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.MesaModerna" target="design.criacao.abstractFactory.Mesa" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="-147.75" y="530.9565217391305" />
+      <point x="-68.0" y="530.9565217391305" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.MobiliaModernaFactory" target="design.criacao.abstractFactory.AbstractFactory" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="395.5" y="272.52173913043475" />
+      <point x="286.0" y="272.52173913043475" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.CadeiraRetro" target="design.criacao.abstractFactory.Cadeira" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="195.75" y="530.9565217391305" />
+      <point x="286.0" y="530.9565217391305" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.MesaRetro" target="design.criacao.abstractFactory.Mesa" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="11.75" y="530.9565217391305" />
+      <point x="-68.0" y="530.9565217391305" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="design.criacao.abstractFactory.CadeiraModerna" target="design.criacao.abstractFactory.Cadeira" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="376.25" y="530.9565217391305" />
+      <point x="286.0" y="530.9565217391305" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.15" showDependencies="false" x="349.8196930946292" y="201.7826086956522" />
+  <SelectedNodes>
+    <node>design.criacao.abstractFactory.AbstractFactoryMain</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
