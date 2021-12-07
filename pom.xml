@@ -11,6 +11,7 @@
     <modules>
         <module>criacionais</module>
         <module>estrutural</module>
+        <module>comportamentais</module>
     </modules>
 
     <properties>

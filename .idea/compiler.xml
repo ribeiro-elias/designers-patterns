@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="criacionais" />
         <module name="estrutural" />
+        <module name="comportamentais" />
       </profile>
     </annotationProcessing>
   </component>
